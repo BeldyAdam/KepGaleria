@@ -1,0 +1,39 @@
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.galeria .kep {
+/*    margin: 5px;
+   justify-content: center; */
+   flex: 0 0 150px;
+}
+.galeria img {
+  width: 100%;
+}
+
+.nagykep {
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.nagykep img {
+    width: 100%;
+    max-width: 640px;
+}
+
+.bal, .jobb{
+    border-radius: 5px;
+    background-color: orange;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(199, 134, 13);
+}
